@@ -1,0 +1,21 @@
+.header {
+  background-color: bisque;
+  width: 100%;
+  padding: 20px;
+  border-bottom: 1px solid gray;
+}
+
+.header__title {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.header__quote {
+   width: 400px;
+   margin: 20px auto 0 700px;
+   height: 60px;
+}
+
+.header__quote-author {
+  font-style: italic;
+}

@@ -1,1 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final project</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-container container">
+            <h1 class="header__title">Tools for your productivity</h1>
+            <p class="header__quote"></p>
+        </div>
+    </header>
+    <main class="productive-tools">
+        <div class="productive-tools-container container">
+            <div class="todo-list-tools">
+                <h2 class="todo-list__title title">Todo List</h2>
+                <input type="text" id="new-todo-input">
+                <button class="btn-add-todo-list" onclick="addTodoList()">Add Todo List</button>
+                <div id="todo-lists"></div>
+            </div>
+
+            <div class="habits-track">
+                <h2 class="habits-track__title title">Habit Tracker</h2>
+                <form>
+                    <input type="text" id="habit" />
+                    <input class="btn-add-habit-item" type="submit" value="Add habit" />
+                </form>
+                <table id="habits">
+                    <thead>
+                        <tr>
+                            <th class="habit-name-colum" rowspan="1">Habit</th>
+                            <th>1</th>
+                            <th>2</th>
+                            <th>3</th>
+                            <th>4</th>
+                            <th>5</th>
+                            <th>6</th>
+                            <th>7</th>
+                            <th>8</th>
+                            <th>9</th>
+                            <th>10</th>
+                            <th>11</th>
+                            <th>12</th>
+                            <th>13</th>
+                            <th>14</th>
+                            <th>15</th>
+                            <th>16</th>
+                            <th>17</th>
+                            <th>18</th>
+                            <th>19</th>
+                            <th>20</th>
+                            <th>21</th>
+                            <th></th>
+                        </tr>
+
+                    </thead>
+                    <tbody></tbody>
+                </table>
+                <button id="delete-all">Delete All Habits</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/todo-list.js"></script>
+    <script src="js/habit.js"></script>
+    <script src="js/header.js"></script>
+
+</body>
+
+</html>

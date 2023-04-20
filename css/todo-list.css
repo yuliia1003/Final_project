@@ -1,0 +1,73 @@
+#todo-lists {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border-bottom: 1px dashed gray;
+  padding: 30px 0;
+  margin: 20px auto;
+}
+
+.todo-list-tools {
+  margin-left: 40px;
+}
+
+.todo-list {
+  width: 30%;
+  margin: 20px 5px;
+  /*padding: 10px;*/
+  border-radius: 10px 0 10px 0;
+  background-color: bisque;
+}
+.todo-list__name {
+  width: 100%;
+  background-color: rgb(248, 208, 159);
+  border-radius: 10px 0 10px 0;
+  padding: 3px 20px;
+}
+
+.todo-list__body {
+padding: 5px 20px;
+list-style-type: none;
+}
+
+.btn-delt-todo-item,
+.btn-delt-todo-list,
+.btn-add-todo-item,
+.btn-add-todo-list {
+  background: none;
+  border: none;
+}
+.btn-delt-todo-item {
+  color: red;
+}
+.btn-add-todo-list {
+  background-color: rgb(248, 208, 159);
+  padding: 5px;
+  color: rgb(70, 48, 21);
+}
+.btn-add-todo-list:hover {
+  background-color: rgb(70, 48, 21);
+  color: rgb(248, 208, 159);
+}
+
+.btn-add-todo-item {
+  color: green;
+  background-color: lightgreen;
+  font-size: 14px;
+  line-height: 20px;
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  margin: 3px 0px 7px 20px;
+}
+
+.btn-delt-todo-list {
+  color: red;
+  background-color: rgb(237, 141, 141);
+  font-size: 14px;
+  line-height: 20px;
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+}
